@@ -9,4 +9,14 @@ public class Paciente extends Persona{
         this.habitacion = habitacion;
         this.enfermedad = enfermedad;
     }
+
+    @Override
+    public void asignacionSalaCita() {
+        System.out.println(this.getClass().getName()+" Tiene sala con médicos");
+    }
+
+    @Override
+    public void solicitarCitaMedica(){
+        System.out.println("Cita Clase hija");
+    }
 }

@@ -1,6 +1,6 @@
 package com.ingjuanfg;
 
-public class Persona {
+public abstract class Persona {
     private String nombre;
     private String apellido;
     private int peso;
@@ -64,4 +64,14 @@ public class Persona {
     public int calculoImc(int peso, int altura){
         return peso + altura;
     }
+
+    public void solicitarCitaMedica(){
+        System.out.println("Cita Clase Padre");
+    }
+
+    public void realizarExamenMedico(){
+        System.out.println("Examen clase padre");
+    }
+    public abstract void asignacionSalaCita();
+
 }

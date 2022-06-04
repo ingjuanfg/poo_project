@@ -13,6 +13,11 @@ public class Medico extends Persona{
         super(nombre, apellido, peso, estatura, edad);
     }
 
+    @Override
+    public void asignacionSalaCita() {
+        System.out.println(this.getClass().getName()+" Sala VIP");
+    }
+
     public String getEspecialidad() {
         return especialidad;
     }
