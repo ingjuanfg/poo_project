@@ -7,10 +7,7 @@ public class Persona {
     private int estatura;
     private int edad;
 
-    public Persona() {
-    }
-
-    public Persona(String nombre, String apellido, int edad) {
+    public Persona(String nombre, String apellido, int edad){
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
@@ -24,11 +21,11 @@ public class Persona {
         this.edad = edad;
     }
 
-    public String getNombre() {
+    public String getNombre(){
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
 
@@ -64,7 +61,7 @@ public class Persona {
         this.estatura = estatura;
     }
 
-    public int calculoImc(int peso, int altura) {
+    public int calculoImc(int peso, int altura){
         return peso + altura;
     }
 }
