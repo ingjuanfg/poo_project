@@ -2,6 +2,11 @@ package com.ingjuanfg;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hola Mundo");
+    	
+    	private String especialidad;
+    	private boolean estaDisponible;
+        Persona persona = new Persona("Ferchis", "Lopez" );
+        System.out.println(persona);
+        
     }
 }
