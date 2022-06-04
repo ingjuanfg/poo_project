@@ -1,4 +1,4 @@
-package com.ingjuanfg;
+package com.ingbrayanh;
 
 public class Persona {
     private String nombre;

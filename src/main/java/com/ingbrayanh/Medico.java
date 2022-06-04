@@ -1,4 +1,4 @@
-package com.ingjuanfg;
+package com.ingbrayanh;
 
 public class Medico extends Persona{
     private String especialidad;
