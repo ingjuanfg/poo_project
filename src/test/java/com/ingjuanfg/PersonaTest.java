@@ -8,8 +8,8 @@ public class PersonaTest {
 
     @Test
     public void testCalcularImc(){
-        //Persona atleta = new Persona();
+        Persona atleta = new Persona("Juan", "Fernandez", 29);
 
-        //assertEquals(80, atleta.calculoImc(40,40));
+        assertEquals(80, atleta.calculoImc(40,40));
     }
 }
