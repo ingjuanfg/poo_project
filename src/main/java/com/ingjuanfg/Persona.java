@@ -1,26 +1,23 @@
 package com.ingjuanfg;
 
 public class Persona {
-
-    private int peso;
-    private int estatura;
     private String nombre;
     private String apellido;
+    private int peso;
+    private int estatura;
     private int edad;
-
 
     public Persona(String nombre, String apellido, int edad){
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
-
     }
 
-    public Persona(int peso, int estatura, String nombre, String apellido, int edad) {
-        this.peso = peso;
-        this.estatura = estatura;
+    public Persona(String nombre, String apellido, int peso, int estatura, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
+        this.peso = peso;
+        this.estatura = estatura;
         this.edad = edad;
     }
 
@@ -28,7 +25,7 @@ public class Persona {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
 
@@ -48,10 +45,6 @@ public class Persona {
         this.edad = edad;
     }
 
-    public void setNombre(){
-        this.nombre = nombre;
-    }
-
     public int getPeso() {
         return peso;
     }
@@ -68,9 +61,7 @@ public class Persona {
         this.estatura = estatura;
     }
 
-    public int calcularImc(int peso, int altura){
+    public int calculoImc(int peso, int altura){
         return peso + altura;
     }
 }
-
-
