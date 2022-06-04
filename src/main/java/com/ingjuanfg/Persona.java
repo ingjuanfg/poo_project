@@ -1,9 +1,6 @@
 package com.ingjuanfg;
 
 public class Persona {
-
-
-
     private String nombre;
     private String apellido;
     private  int peso;
@@ -14,6 +11,11 @@ public class Persona {
         this.apellido = apellido;
         this.peso = peso;
         this.estatura = estatura;
+    }
+
+    public Persona(String nombre, String apellido) {
+        this.nombre = nombre;
+        this.apellido = apellido;
     }
 
     public String getNombre() {
