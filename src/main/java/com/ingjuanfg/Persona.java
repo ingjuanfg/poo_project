@@ -1,19 +1,16 @@
 package com.ingjuanfg;
 
 public class Persona {
-
     private String nombre;
     private String apellido;
     private int peso;
     private int estatura;
     private int edad;
 
-    public Persona(){}
-
     public Persona(String nombre, String apellido, int edad){
-        this.nombre=nombre;
-        this.apellido=apellido;
-        this.edad=edad;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
     }
 
     public Persona(String nombre, String apellido, int peso, int estatura, int edad) {
@@ -67,7 +64,4 @@ public class Persona {
     public int calculoImc(int peso, int altura){
         return peso + altura;
     }
-
-
-
 }
