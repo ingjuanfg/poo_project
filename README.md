@@ -29,6 +29,6 @@ En esta capa se crean 2 interfaces. La interfaz **Clinica** y la interfaz **Farm
 En esta capa se crean 3 pruebas unitarias básicas relacionadas con las las clases **Paciente** y **Médico** de la capa de **Herencia**. Allí se validan 2 metodos de la clase Paciente y 1 método de la clase Medico con el fin de ver si estructura básica. *(Explicado con TDD en la sesión).*
 
 
-**Happy Coding! **
+**Happy Coding!**
 
 ***Juan de Jesús Fernández Graciano***
