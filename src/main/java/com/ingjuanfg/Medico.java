@@ -26,4 +26,9 @@ public class Medico extends Persona{
     public void setEstaDisponible(boolean estaDisponible) {
         this.estaDisponible = estaDisponible;
     }
+
+    @Override
+    public void asignacionSalaCita() {
+        System.out.println("desde medico");
+    }
 }

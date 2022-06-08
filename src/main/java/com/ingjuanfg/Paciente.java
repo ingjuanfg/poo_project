@@ -10,4 +10,9 @@ public class Paciente extends Persona {
         this.id = id;
         this.enfermedad = enfermedad;
     }
+
+    @Override
+    public void asignacionSalaCita() {
+        System.out.println("desde Paciente");
+    }
 }
